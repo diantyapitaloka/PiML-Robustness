@@ -68,5 +68,5 @@ The second example below demonstrates how to use PiML’s high-code APIs for the
 
 Robustness: Classification
 
-## 🍟🥗🥪 Copyright 🥪🥗🍟## 
+## 🍟🥗🥪 Copyright 🥪🥗🍟
 By Diantya Pitaloka
