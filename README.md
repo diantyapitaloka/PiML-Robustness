@@ -55,13 +55,14 @@ In addition to the robustness test on all test samples, we can also test model r
  The x-axis shows the noise level (perturbation size), and the y-axis is the model performance (MSE). Under perturbation, we observe that the worst test sample performance is much worse than that of the full test sample. The drop in model performance also increases with the increase in noise level. This plot tells us how poorly the model may perform under the input perturbation and worst cases.
 
 
-## 🍟🥗🥪 Examples 🥪🥗🍟
+## 🍟🥗🥪 Examples 1 🥪🥗🍟
 Example 1: BikeSharing
 
 The first example below demonstrates how to use PiML with its high-code APIs for developing machine learning models for the BikeSharing data from the UCI repository, which consists of 17,389 samples of hourly counts of rental bikes in Capital bikeshare system; see details. The response cnt (hourly bike rental counts) is continuous and it is a regression problem.
 
 Robustness: Regression
 
+## 🍟🥗🥪 Examples 2 🥪🥗🍟
 Examples 2: Taiwan Credit
 
 The second example below demonstrates how to use PiML’s high-code APIs for the TaiwanCredit dataset from the UCI repository. This dataset comprises the credit card details of 30,000 clients in Taiwan from April 2005 to September 2005, and more information can be found on the TaiwanCreditData website. The data can be loaded directly into PiML, although it requires some preprocessing. The FlagDefault variable serves as the response for this classification problem.
