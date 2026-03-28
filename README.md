@@ -1,6 +1,7 @@
 ## 🍟🥗🥪 PiML-Robustness 🥪🥗🍟
 - The performance of a model can be adversely affected when it encounters noisy data or experiences distribution shifts. This can result in incorrect predictions. Such data drift or shift may occur due to unexpected changes, which can alter the underlying patterns and relationships between the input and target variables. In this section, we will demonstrate how to utilize PiML to evaluate the model’s robustness to input perturbations.
 - A common challenge occurs when the distribution of input features changes while the relationship between features and labels remains constant. PiML helps identify these shifts by comparing the statistical properties of training data against real-world inference data.
+- Robustness isn't just about natural noise; it also involves how a model handles intentional, small-scale manipulations of input data. You can use PiML to simulate these adversarial attacks to see if your model’s predictions remain stable under pressure.
 
 ## 🍟🥗🥪 Algorithm Details 🥪🥗🍟
 The robustness test assesses model performance to small changes in the covariate space. It proceeds as follows.
